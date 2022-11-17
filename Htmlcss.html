@@ -1,0 +1,125 @@
+<html>
+<head>
+  <title>htmlcss.html</title>
+  <style>
+      body
+	{
+	  background-color:gray;
+	}
+  table{
+  background-color:orange;
+  border:5px solid red;
+  border-collapse:collapse;
+  font-size:25px;
+  }
+  th{
+    border:solid 4px blue;
+	height:30px;
+    width:80px;
+    padding:7px;
+   }
+
+   td{
+   border:solid 4px blue;
+   height:30px;
+   width:80px;
+   padding:7px;
+   }
+   ol{
+   list-style-type:upper-alpha;
+   background-color:yellow;  
+   font-family:arial;
+   font-size:25px;
+   border:solid 5px red;
+   }
+   ul{
+   list-style-type:circle;
+   background-color:red;  
+   font-family:arial;
+   font-size:25px;
+   border:blue;
+   border:solid 5px yellow;
+   }
+  .abc{
+   width:300px;
+   height:200px;
+   }
+  .pqr{
+   width:300px;
+   height:200px;
+   }
+  .xyz{
+   width:300px;
+   height:100px;
+   }
+  .abcd{
+   width:100%;
+   height:auto;
+   display:flex;
+   margin:10px;
+   }
+   @media screen and(min-width:500px)
+   {
+      .abcd{
+	    background-color:red;
+	  }
+   }	 
+  </style>
+</head>
+<body>
+<div class="abcd">
+<div class="abc">
+<table>
+<tr class="a">
+<th colspan="3">cars</th>
+</tr>
+<tr class="b">
+<th>name</th>
+<th>milege</th>
+<th>price</th>
+</tr>
+<tr class="c">
+<td>swift</td>
+<td>23</td>
+<td>10lakh</td>
+</tr>
+<tr class="d">
+<td>brezza</td>
+<td>18</td>
+<td>12lakh</td>
+</tr>
+<tr class="f">
+<td>creta</td>
+<td>16</td>
+<td>18lakh</td>
+</tr>
+<tr class="d">
+<td>seltos</td>
+<td>16</td>
+<td>22lakh</td>
+</tr>
+</table>
+</div>
+<br><br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+<div class="xyz">
+<font type="arial" size="6" color="blue">car information :</font></div><br><br>
+<div class="pqr">
+<list>
+<ol>
+Maruti Suzuki:
+ <li>Brezza</li>
+ <li>Ciaz</li>
+ <li>S-Cross</li>
+</ol>
+
+<ul>
+Hyundai:
+<li>Creta</li>
+<li>Venue</li>
+<li>Verna</li>
+</ul>
+</list>
+</div>
+</div>
+</body>
+</html>
